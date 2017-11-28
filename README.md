@@ -2,6 +2,7 @@
 
 CLI for [x-ray](https://www.npmjs.com/package/x-ray).<br>
 Scrape clean JSON lists of links from webpages with a range of specificity.
+Saves output of results.json in the same directory.
 
 ## Example queries
 
