@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Images",
+    "link": "http://www.google.com/imghp?hl=en&tab=wi"
+  },
+  {
+    "title": "Maps",
+    "link": "http://maps.google.com/maps?hl=en&tab=wl"
+  },
+  {
+    "title": "Play",
+    "link": "https://play.google.com/?hl=en&tab=w8"
+  },
+  {
+    "title": "YouTube",
+    "link": "http://www.youtube.com/?gl=US&tab=w1"
+  },
+  {
+    "title": "News",
+    "link": "http://news.google.com/nwshp?hl=en&tab=wn"
+  },
+  {
+    "title": "Gmail",
+    "link": "https://mail.google.com/mail/?tab=wm"
+  },
+  {
+    "title": "Drive",
+    "link": "https://drive.google.com/?tab=wo"
+  },
+  {
+    "title": "More »",
+    "link": "https://www.google.com/intl/en/options/"
+  },
+  {
+    "title": "Web History",
+    "link": "http://www.google.com/history/optout?hl=en"
+  },
+  {
+    "title": "Settings",
+    "link": "http://google.com/preferences?hl=en"
+  },
+  {
+    "title": "Sign in",
+    "link": "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=http://www.google.com/"
+  },
+  {
+    "title": "Advanced search",
+    "link": "http://google.com/advanced_search?hl=en&authuser=0"
+  },
+  {
+    "title": "Language tools",
+    "link": "http://google.com/language_tools?hl=en&authuser=0"
+  },
+  {
+    "title": "Enjoy Cyber Monday deals",
+    "link": "https://www.google.com/url?q=https://store.google.com/%3Futm_source%3Dhpp%26utm_medium%3Dgoogle_oo%26utm_campaign%3DGS100458%26utm_content%3Den-us&source=hpp&id=19004221&ct=3&usg=AFQjCNGFjbfZlihWlBCx9kxGWD4qR2_LDw&sa=X&ved=0ahUKEwiroJupkODXAhVDxoMKHRFtAMgQ8IcBCAU"
+  },
+  {
+    "title": "Advertising�Programs",
+    "link": "http://google.com/intl/en/ads/"
+  },
+  {
+    "title": "Business Solutions",
+    "link": "http://google.com/services/"
+  },
+  {
+    "title": "+Google",
+    "link": "https://plus.google.com/116899029375914044550"
+  },
+  {
+    "title": "About Google",
+    "link": "http://google.com/intl/en/about.html"
+  },
+  {
+    "title": "Privacy",
+    "link": "http://google.com/intl/en/policies/privacy/"
+  },
+  {
+    "title": "Terms",
+    "link": "http://google.com/intl/en/policies/terms/"
+  }
+]

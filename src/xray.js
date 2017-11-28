@@ -1,7 +1,8 @@
 import Xray from 'x-ray';
 import toString from 'stream-to-string';
 // import fs from 'fs';
-let x = Xray();
+let log, x;
+x = Xray();
 // Check imports
 // console.log(x);
 // console.log(fs);
@@ -29,8 +30,6 @@ const scrape = (url, target = 'a', title = '', link = '') => {
   // .paginate('.nav-previous a@href')
   .limit(3);
 
-  result.write('results.json');
-
   result.write().on('data', (chunk) => {
     console.log(`... Received ${chunk.length} bytes of data.
 Here's what I found:
@@ -43,7 +42,6 @@ Here's what I found:
     // console.log(typeof msg);
     let json = JSON.parse(msg);
     sleep(3000);
-
     json.forEach(element => {
       console.log('[' + element.title + ']:', element.link);
     });
@@ -51,4 +49,16 @@ Here's what I found:
 
 }
 
+// WRITE RESULTS TO XRAY.JSON
+log = (url, target = 'a', title = '', link = '') => {
+  let result;
+  result = x('http://' + url, target, [{
+    title: title + '',
+    link: link + '@href'
+  }])
+  .limit(3);
+  result.write('xray.json');
+}
+
 scrape(process.argv[2], process.argv[3], process.argv[4], process.argv[5]);
+log(process.argv[2], process.argv[3], process.argv[4], process.argv[5]);
